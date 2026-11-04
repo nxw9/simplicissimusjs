@@ -1,0 +1,1225 @@
+{
+  "format": "hearth-project",
+  "schemaVersion": 6,
+  "id": "enemy-hunt-demo",
+  "title": "Охота на стража",
+  "contentVersion": 1,
+  "weapon": null,
+  "world": {
+    "size": 80,
+    "sky": "#9aaea7",
+    "ground": "#4b6250",
+    "spawn": [
+      0,
+      1.7,
+      7
+    ],
+    "terrain": null
+  },
+  "assets": [],
+  "entities": [
+    {
+      "id": "arch",
+      "name": "Старая арка",
+      "kind": "prop",
+      "shape": "ruin",
+      "position": [
+        0,
+        0,
+        -8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#979b89",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "warden",
+      "name": "Хранитель",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -3,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#d6bb79",
+      "solid": false,
+      "dialogue": "Победи стража у арки и вернись за наградой.",
+      "health": 40
+    },
+    {
+      "id": "shard",
+      "name": "Солнечный осколок",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        2,
+        0.8,
+        -13
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "color": "#9effb9",
+      "solid": false,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "ruin_guard",
+      "name": "Страж руин",
+      "kind": "enemy",
+      "shape": "humanoid",
+      "position": [
+        -1,
+        0,
+        -13
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#a44d47",
+      "solid": false,
+      "dialogue": "",
+      "enemy": {
+        "speed": 2.5,
+        "notice": 12,
+        "reach": 1.8,
+        "damage": 15,
+        "duration": 0.9,
+        "cooldown": 1.2,
+        "impact": 0.45,
+        "facing": 0,
+        "idle": null,
+        "walk": null,
+        "attack": null,
+        "death": null,
+        "corpseAssetId": null,
+        "corpseScale": 1,
+        "corpseFacing": 0
+      },
+      "health": 80
+    },
+    {
+      "id": "tree-0",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        14,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-1",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -12.166550490997908,
+        0,
+        11.145629150030002
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.2,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-2",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        1.660966509825735,
+        0,
+        -18.92726050576885
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.4,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-3",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        13.081600831354503,
+        0,
+        17.062289403509283
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.6,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-4",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -23.633177651399976,
+        0,
+        -4.180061494448225
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-5",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        22.35928562272201,
+        0,
+        -14.223654468579337
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.2,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-6",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -3.63419827213617,
+        0,
+        13.520081468645166
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.4,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-7",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -7.6052969539621404,
+        0,
+        -14.642727144970442
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.6,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-8",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        17.84727302829859,
+        0,
+        6.51727285399082
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-9",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -19.87319099393788,
+        0,
+        8.204040450806323
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.2,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-10",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        10.17160180962083,
+        0,
+        -21.737951067810375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.4,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-11",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        7.931920715768293,
+        0,
+        25.28506740664865
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.6,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-12",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -12.113228988400353,
+        0,
+        -7.01923667321293
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-13",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        16.115001498022437,
+        0,
+        -3.543547194371008
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.2,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-14",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -10.926756338652192,
+        0,
+        15.543680256481222
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.4,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-15",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -2.764012778211486,
+        0,
+        -21.321590779345794
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.6,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-16",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        18.3523751197741,
+        0,
+        15.465779238793521
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-17",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -26.477310274145754,
+        0,
+        1.0963761428523229
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.2,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-18",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        9.92303768065536,
+        0,
+        -9.875896070144416
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.4,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-19",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -0.7611474174071345,
+        0,
+        16.482434729401312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.6,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-20",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -12.174416027443915,
+        0,
+        -14.587103701239556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-21",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        21.308186774329087,
+        0,
+        2.8655150305498154
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.2,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-22",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -19.699626088174806,
+        0,
+        13.708564183972824
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.4,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-23",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        5.814335748390814,
+        0,
+        -25.854274304357965
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.6,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-24",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        6.961473789346095,
+        0,
+        12.146517306629391
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-25",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -15.719835693853591,
+        0,
+        -5.013657921941483
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.2,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-26",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        17.247362294538416,
+        0,
+        -7.970476389836091
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.4,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-27",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -8.298583730020306,
+        0,
+        19.8338979546594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.6,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-28",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -8.124896963863598,
+        0,
+        -22.582870706059495
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-29",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        23.45867471265706,
+        0,
+        12.326418000609266
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.2,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-30",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -13.53723425447862,
+        0,
+        3.569774326112327
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.4,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-31",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        8.922433091245406,
+        0,
+        -13.879488021258169
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.6,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-32",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        3.2200825631984813,
+        0,
+        18.72514534753162
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-33",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -16.999801252498237,
+        0,
+        -13.162703270056623
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.2,
+        0.8
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-34",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        23.917838446368737,
+        0,
+        -1.9841885125676906
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.4,
+        1.05
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "tree-35",
+      "name": "Сосна",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -17.993403620868442,
+        0,
+        19.45475330443741
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.3,
+        1.6,
+        1.3
+      ],
+      "color": "#426858",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-0",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        -9,
+        0.35,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-1",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        -5.9,
+        0.35,
+        -8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-2",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        -2.8,
+        0.35,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-3",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        0.3000000000000007,
+        0.35,
+        -8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-4",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        3.4000000000000004,
+        0.35,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-5",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        6.5,
+        0.35,
+        -8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "rock-6",
+      "name": "Камень",
+      "kind": "prop",
+      "shape": "sphere",
+      "position": [
+        9.600000000000001,
+        0.35,
+        -5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4,
+        0.7,
+        1.1
+      ],
+      "color": "#777f70",
+      "solid": true,
+      "dialogue": "",
+      "health": 40
+    }
+  ],
+  "quests": [
+    {
+      "id": "hunt",
+      "title": "Победить стража руин",
+      "giver": "warden",
+      "target": "ruin_guard",
+      "required": 1,
+      "type": "defeat",
+      "reward": 50
+    }
+  ]
+}
