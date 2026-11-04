@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Victor Mono";
+  src: url("./assets/fonts/VictorMono-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Victor Mono";
+  src: url("./assets/fonts/VictorMono-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Victor Mono";
+  src: url("./assets/fonts/VictorMono-Italic.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Victor Mono";
+  src: url("./assets/fonts/VictorMono-BoldItalic.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+.event-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 760px;
+}
+.event-editor .field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.event-editor input,
+.event-editor select,
+.event-editor textarea {
+  width: 100%;
+}
+.event-editor .check input {
+  width: auto;
+}
+.event-editor textarea {
+  min-height: 150px;
+}
+.event-editor fieldset,
+.event-condition {
+  border: 1px solid #695d43;
+  padding: 16px;
+  margin: 10px 0;
+  display: grid;
+  gap: 10px;
+}
+.event-editor p {
+  line-height: 1.7;
+}
+.lore-book {
+  background: radial-gradient(ellipse at top, #eee0b9, #c2a477);
+  color: #30261d;
+  border: 1px solid #99815d;
+  box-shadow:
+    inset 18px 0 28px #5e3b2725,
+    inset -4px 0 15px #5e3b2729;
+  padding: 28px 36px;
+  margin: 12px 0 22px;
+  min-height: 320px;
+}
+.book-author {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #68503c;
+}
+.book-ornament {
+  text-align: center;
+  margin: 18px 0;
+  color: #844333;
+  letter-spacing: 3px;
+}
+.book-page {
+  white-space: pre-wrap;
+  font:
+    19px/1.65 "Victor Mono",
+    monospace;
+  overflow-wrap: anywhere;
+  min-height: 200px;
+}
+.book-page:first-letter {
+  font-size: 2.3em;
+  line-height: 1;
+  color: #7a2d26;
+}
+.book-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid #977b59;
+}
+.book-controls button {
+  background: #46372a;
+  border-color: #85704e;
+  color: #f0dfb9;
+}
+.book-controls button:disabled {
+  opacity: 0.45;
+}
+.theme-chronicle .game-menu {
+  background: radial-gradient(ellipse at 50% 10%, #4b151844, #080a0be8 60%);
+}
+.theme-chronicle .game-menu-panel {
+  width: min(540px, 100%);
+  background: linear-gradient(145deg, #24221d, #121616);
+  border: 1px solid #89734f;
+  border-radius: 2px;
+  box-shadow:
+    0 0 0 5px #151410,
+    0 0 0 6px #504631,
+    0 26px 100px #000c;
+  padding: 34px;
+  gap: 13px;
+}
+.theme-chronicle .game-menu-panel:before {
+  content: "✦  ◆  ✦";
+  text-align: center;
+  letter-spacing: 14px;
+  color: #a74936;
+  margin: 0 0 8px;
+}
+.theme-chronicle .game-menu-panel h1,
+.theme-chronicle .game-title,
+.theme-chronicle .dialogue h3,
+.theme-chronicle .inventory-panel h2,
+.theme-chronicle .inventory-panel h3,
+.theme-chronicle .rpg-panel h2 {
+  font-family: "Victor Mono", monospace;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #ddc192;
+  text-shadow: 0 2px 3px #0009;
+}
+.theme-chronicle .game-menu-panel h1 {
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+}
+.theme-chronicle .game-menu-panel button,
+.theme-chronicle .game-menu-panel label,
+.theme-chronicle .game-menu-panel select {
+  font-family: "Victor Mono", monospace;
+  font-size: 20px;
+}
+.theme-chronicle .game-menu-panel button {
+  border-color: #67543b;
+  border-radius: 1px;
+  background: linear-gradient(#302a22, #211e1a);
+  color: #dfc69d;
+}
+.theme-chronicle .game-menu-panel button:hover {
+  background: #493326;
+  border-color: #b1905b;
+}
+.theme-chronicle .game-menu-panel button.primary {
+  background: linear-gradient(#713b30, #46241f);
+  color: #f4dfb3;
+  border-color: #a9744f;
+}
+.theme-chronicle .game-menu-panel p {
+  color: #b8ab94;
+  font-size: 15px;
+}
+.theme-chronicle .lore-book .book-page {
+  font-family: "Victor Mono", monospace;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.theme-chronicle .book-author,
+.theme-chronicle .book-controls {
+  font-family: "Victor Mono", monospace;
+  font-size: 18px;
+}
+.theme-chronicle .inventory-panel {
+  background: #1b1e1c;
+  border: 1px solid #88704c;
+}
+.theme-chronicle .inventory-panel:has(.lore-book) {
+  width: min(860px, 95vw);
+}
+.theme-chronicle .world-clock {
+  color: #e3bd9e;
+}
+.theme-chronicle .game-title {
+  font-size: 23px;
+}
+@media (max-width: 600px) {
+  .lore-book {
+    padding: 20px 20px;
+  }
+  .theme-chronicle .lore-book .book-page {
+    font-size: 21px;
+  }
+  .theme-chronicle .game-menu-panel {
+    padding: 24px;
+  }
+  .theme-chronicle .game-menu-panel h1 {
+    font-size: 29px;
+  }
+  .book-controls {
+    gap: 6px;
+  }
+  .book-controls button {
+    padding: 8px;
+  }
+}

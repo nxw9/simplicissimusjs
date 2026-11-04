@@ -1,0 +1,16 @@
+Victor Mono — vendored MIT release
+
+Source package: victormono@1.4.0
+Source: https://registry.npmjs.org/victormono/-/victormono-1.4.0.tgz
+Upstream: https://github.com/rubjo/victor-mono
+License: MIT (the LICENSE shipped in this exact release).
+The copyright notice is also retained from each font's name table.
+Later upstream releases have different licensing; do not replace these binaries
+without checking the license shipped with the replacement release.
+
+The four WOFF files are copied without modification.
+SHA-256:
+d9dfac3ffe10e86132703e987da4e810bb0997ee922ae081387a99c08dfb2f32  VictorMono-Bold.woff
+e238499a9a0fd5fc745effd723ed68be3d87dc962b8b31dedbeedc5e45abf727  VictorMono-BoldItalic.woff
+38e4f079f572cbe69026b254e684a66f3976d420b533904993a31ef961016f8d  VictorMono-Italic.woff
+b2f3eeec31de3e2217bd594b1ad540ee92d0021d226ab6d9a861b411bb9dc50a  VictorMono-Regular.woff
