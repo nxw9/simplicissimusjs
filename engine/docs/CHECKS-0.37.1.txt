@@ -1,0 +1,10 @@
+Hearth Engine / Zaltan 0.37.1
+Project format 24; save format 8; Zaltan contentVersion 4.
+268 automated tests passed (252 engine + 16 game), 0 failed.
+Starter demo regression: default expansion UI 80 -> 100 m; movement 38 -> 62 m crosses old and new terrain edges in all four directions, using real scene colliders; player and NPC movement tested.
+Only an explicit Boundary setting creates a blocking world rectangle. Removing it clears the blocker and its guide. Expansion never creates or moves it; repeated expansion verified.
+Player, dropped items and defeated actors beyond terrain extent survive save/load. Invalid numeric data and references remain rejected.
+Zaltan's existing 800 m perimeter is explicit and editable. Other authored game data compared against 0.37 and preserved.
+Editor and standalone game production builds passed. Inline scripts syntax-checked; no external scripts or stylesheets; embedded projects verified.
+Actual 0.37 saves verified on foot and mounted, including quests, inventory and gold.
+GPU/browser visual and FPS checks were not performed.

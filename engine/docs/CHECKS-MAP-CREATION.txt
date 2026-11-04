@@ -1,0 +1,18 @@
+Hearth Engine 0.37.1 + map creation
+Project format 24; save format 8.
+
+258 automated engine tests passed; 0 failed, 0 skipped.
+Includes 6 new tests for empty map creation and its editor form.
+
+Verified: exact sizes from 20 to 2000 m (including fractional sizes),
+centered player spawn, flat editable terrain and a full-map sculpting region.
+Empty maps contain no entities, quests or inherited play bounds.
+Player and NPC movement crosses all four terrain edges; saves outside
+terrain extent reload at the same position. Project roundtrip verified.
+Invalid sizes/titles, cancellation, failed commits, retry and duplicate
+submission guards verified. Creating a map is one undo/redo step.
+
+Production editor build passed. Standalone editor rebuilt from source;
+original embedded starter project verified unchanged. No external scripts.
+Existing engine behavior, project migration and standalone exports passed.
+Browser/GPU visual checks were not performed in this environment.

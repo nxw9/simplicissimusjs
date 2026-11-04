@@ -1,0 +1,5 @@
+Three.js Triangle.closestPointToPoint algorithm attribution:
+from Real-Time Collision Detection by Christer Ericson, published by Morgan Kaufmann Publishers, © 2005 Elsevier Inc
+
+The source permits commercial and non-commercial use with this credit.
+Source notice: https://documentation.enlighten.siliconstudio.co.jp/wiki/spaces/SDK402/pages/2485158110/Real-Time+Collision+Detection

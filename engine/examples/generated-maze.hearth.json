@@ -1,0 +1,9485 @@
+{
+  "format": "hearth-project",
+  "schemaVersion": 17,
+  "id": "generated-maze-v1-bc975735-275080e9",
+  "title": "Лабиринт потерянной экспедиции · expedition-42",
+  "contentVersion": 1,
+  "weapon": null,
+  "world": {
+    "size": 106,
+    "dayNight": {
+      "enabled": false,
+      "dayMinutes": 24,
+      "startHour": 10
+    },
+    "sky": "#d5c3a4",
+    "ground": "#77734d",
+    "spawn": [
+      0,
+      1.7,
+      39
+    ],
+    "terrain": null
+  },
+  "assets": [],
+  "entities": [
+    {
+      "id": "maze-cell-0-0",
+      "name": "Пол · 1:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-1",
+      "name": "Пол · 1:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-1-12",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-2",
+      "name": "Пол · 1:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-2-13",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-3",
+      "name": "Пол · 1:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-3-14",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-4",
+      "name": "Пол · 1:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-4-15",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-5",
+      "name": "Пол · 1:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-5-6",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-6",
+      "name": "Пол · 1:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-7",
+      "name": "Пол · 1:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-7-18",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-8",
+      "name": "Пол · 1:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-8-19",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        -33
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-9",
+      "name": "Пол · 1:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-0-10",
+      "name": "Пол · 1:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-0",
+      "name": "Пол · 2:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-11-12",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-1",
+      "name": "Пол · 2:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-2",
+      "name": "Пол · 2:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-13-14",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -15,
+        2.25,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-13-24",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        -27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-3",
+      "name": "Пол · 2:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-4",
+      "name": "Пол · 2:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-15-26",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        -27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-5",
+      "name": "Пол · 2:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-16-17",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-16-27",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        -27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-6",
+      "name": "Пол · 2:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-17-28",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        2.25,
+        -27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-7",
+      "name": "Пол · 2:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-18-29",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        -27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-8",
+      "name": "Пол · 2:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-19-20",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-9",
+      "name": "Пол · 2:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-20-21",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-1-10",
+      "name": "Пол · 2:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-0",
+      "name": "Пол · 3:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-22-23",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-1",
+      "name": "Пол · 3:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-23-34",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-2",
+      "name": "Пол · 3:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-24-25",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -15,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-3",
+      "name": "Пол · 3:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-25-36",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-4",
+      "name": "Пол · 3:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-26-37",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-5",
+      "name": "Пол · 3:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-27-38",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-6",
+      "name": "Пол · 3:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-28-39",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-7",
+      "name": "Пол · 3:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-29-40",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-8",
+      "name": "Пол · 3:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-30-31",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-30-41",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-9",
+      "name": "Пол · 3:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-31-32",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-2-10",
+      "name": "Пол · 3:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-32-43",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-0",
+      "name": "Пол · 4:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-1",
+      "name": "Пол · 4:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-34-45",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-2",
+      "name": "Пол · 4:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-35-46",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-3",
+      "name": "Пол · 4:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-36-47",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-4",
+      "name": "Пол · 4:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-37-48",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-5",
+      "name": "Пол · 4:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-38-49",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-6",
+      "name": "Пол · 4:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-7",
+      "name": "Пол · 4:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-40-51",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-8",
+      "name": "Пол · 4:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-41-42",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-41-52",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-9",
+      "name": "Пол · 4:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-42-53",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-3-10",
+      "name": "Пол · 4:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-0",
+      "name": "Пол · 5:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-44-45",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-1",
+      "name": "Пол · 5:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-2",
+      "name": "Пол · 5:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-46-47",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -15,
+        2.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-3",
+      "name": "Пол · 5:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-4",
+      "name": "Пол · 5:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-48-59",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-5",
+      "name": "Пол · 5:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-49-50",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-6",
+      "name": "Пол · 5:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-50-51",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        9,
+        2.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-50-61",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        2.25,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-7",
+      "name": "Пол · 5:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-8",
+      "name": "Пол · 5:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-52-53",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-9",
+      "name": "Пол · 5:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-4-10",
+      "name": "Пол · 5:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-54-65",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        2.25,
+        -9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-0",
+      "name": "Пол · 6:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-55-56",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-55-66",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-1",
+      "name": "Пол · 6:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-56-57",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -21,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-2",
+      "name": "Пол · 6:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-57-68",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-3",
+      "name": "Пол · 6:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-58-59",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -9,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-58-69",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-4",
+      "name": "Пол · 6:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-59-60",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -3,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-5",
+      "name": "Пол · 6:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-6",
+      "name": "Пол · 6:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-61-72",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-7",
+      "name": "Пол · 6:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-62-63",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        15,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-62-73",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-8",
+      "name": "Пол · 6:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-63-64",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-9",
+      "name": "Пол · 6:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-64-75",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-5-10",
+      "name": "Пол · 6:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-0",
+      "name": "Пол · 7:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-1",
+      "name": "Пол · 7:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-67-68",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -21,
+        2.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-67-78",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-2",
+      "name": "Пол · 7:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-68-79",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-3",
+      "name": "Пол · 7:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-69-80",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-4",
+      "name": "Пол · 7:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-70-81",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-5",
+      "name": "Пол · 7:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-71-72",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-6",
+      "name": "Пол · 7:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-7",
+      "name": "Пол · 7:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-73-74",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        15,
+        2.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-8",
+      "name": "Пол · 7:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-74-85",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-9",
+      "name": "Пол · 7:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-75-86",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        2.25,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-6-10",
+      "name": "Пол · 7:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-0",
+      "name": "Пол · 8:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-77-78",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-1",
+      "name": "Пол · 8:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-2",
+      "name": "Пол · 8:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-79-90",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-3",
+      "name": "Пол · 8:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-80-91",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-4",
+      "name": "Пол · 8:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-81-82",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -3,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-5",
+      "name": "Пол · 8:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-82-83",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-82-93",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-6",
+      "name": "Пол · 8:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-83-84",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        9,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-7",
+      "name": "Пол · 8:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-84-95",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-8",
+      "name": "Пол · 8:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-85-86",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-9",
+      "name": "Пол · 8:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-86-87",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-7-10",
+      "name": "Пол · 8:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-0",
+      "name": "Пол · 9:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-1",
+      "name": "Пол · 9:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-89-90",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -21,
+        2.25,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-89-100",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-2",
+      "name": "Пол · 9:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-3",
+      "name": "Пол · 9:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-91-92",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -9,
+        2.25,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-91-102",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-4",
+      "name": "Пол · 9:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-92-103",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-5",
+      "name": "Пол · 9:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-93-104",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-6",
+      "name": "Пол · 9:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-94-95",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        9,
+        2.25,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-94-105",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-7",
+      "name": "Пол · 9:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-8",
+      "name": "Пол · 9:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-96-97",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        21,
+        2.25,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-96-107",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-9",
+      "name": "Пол · 9:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-8-10",
+      "name": "Пол · 9:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-98-109",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        2.25,
+        15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-0",
+      "name": "Пол · 10:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-99-110",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        2.25,
+        21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-1",
+      "name": "Пол · 10:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-100-101",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -21,
+        2.25,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-2",
+      "name": "Пол · 10:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-101-112",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-3",
+      "name": "Пол · 10:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-4",
+      "name": "Пол · 10:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-5",
+      "name": "Пол · 10:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-104-105",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        3,
+        2.25,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-104-115",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-6",
+      "name": "Пол · 10:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-7",
+      "name": "Пол · 10:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-106-107",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        15,
+        2.25,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-106-117",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        2.25,
+        21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-8",
+      "name": "Пол · 10:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-9",
+      "name": "Пол · 10:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-108-109",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-108-119",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        2.25,
+        21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-9-10",
+      "name": "Пол · 10:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-0",
+      "name": "Пол · 11:1",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-1",
+      "name": "Пол · 11:2",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -24,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-2",
+      "name": "Пол · 11:3",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-3",
+      "name": "Пол · 11:4",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -12,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-113-114",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -9,
+        2.25,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-4",
+      "name": "Пол · 11:5",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -6,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-114-115",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -3,
+        2.25,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-5",
+      "name": "Пол · 11:6",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-6",
+      "name": "Пол · 11:7",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        6,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-wall-116-117",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        9,
+        2.25,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-7",
+      "name": "Пол · 11:8",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        12,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-8",
+      "name": "Пол · 11:9",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-9",
+      "name": "Пол · 11:10",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        24,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#77786e",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-cell-10-10",
+      "name": "Пол · 11:11",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        -0.015,
+        24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        0.06,
+        6
+      ],
+      "color": "#838476",
+      "solid": false,
+      "environment": true,
+      "collision": "meshes",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-boundary-north",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        -39
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        66.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-boundary-west",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -33,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        66.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-boundary-east",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        33,
+        2.25,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        66.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-boundary-south-left",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        30.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-boundary-south-right",
+      "name": "Каменная стена",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        18,
+        2.25,
+        27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        30.45,
+        4.5,
+        0.45
+      ],
+      "color": "#aaa18b",
+      "solid": true,
+      "environment": true,
+      "collision": "box",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "guide",
+      "name": "Мира · начальник экспедиции",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -2,
+        0,
+        34
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "Мы разбили лагерь снаружи. Экспедиция исчезла за этими стенами, а замки продолжают исполнять старый приказ. Сначала получим допуск, затем разберёмся, кто запер людей.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Мира · начальник экспедиции",
+            "text": "Мы разбили лагерь снаружи. Экспедиция исчезла за этими стенами, а замки продолжают исполнять старый приказ. Сначала получим допуск, затем разберёмся, кто запер людей.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-entry-offer",
+            "conditions": [
+              {
+                "kind": "questNew",
+                "target": "maze-entry"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Мира · начальник экспедиции",
+            "text": "Мы разбили лагерь снаружи. Экспедиция исчезла за этими стенами, а замки продолжают исполнять старый приказ. Сначала получим допуск, затем разберёмся, кто запер людей.\n\nНайди пропуск у вещей курьера справа от лагеря и вернись ко мне. После проверки вход откроется.",
+            "choices": [
+              {
+                "id": "accept_maze-entry",
+                "text": "Принять: Пролог · допуск в лабиринт",
+                "next": "maze-entry-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-entry"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-entry"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-entry-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-entry"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Мира · начальник экспедиции",
+            "text": "Мы разбили лагерь снаружи. Экспедиция исчезла за этими стенами, а замки продолжают исполнять старый приказ. Сначала получим допуск, затем разберёмся, кто запер людей.\n\nНайди пропуск у вещей курьера справа от лагеря и вернись ко мне. После проверки вход откроется.",
+            "choices": [
+              {
+                "id": "claim_maze-entry",
+                "text": "Сдать: Пролог · допуск в лабиринт (+20 золота)",
+                "next": "maze-entry-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-entry"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-entry"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-entry-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-entry"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Мира · начальник экспедиции",
+            "text": "Пропуск действителен. Вход открыт. Внутри найди хранителя водосбора: он объяснит, как пройти первую секцию. Ключи не расходуются; их и открытые двери можно сохранить.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-finale-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-4"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-finale"
+              }
+            ],
+            "autoStart": true,
+            "priority": 50,
+            "title": "Мира · начальник экспедиции",
+            "text": "Последняя печать снята. Забери летопись в сердце лабиринта и принеси мне в наружный лагерь. Все снятые печати останутся открыты. Боковые крылья можно исследовать позже.",
+            "choices": [
+              {
+                "id": "accept_maze-finale",
+                "text": "Принять: Финал · вынести правду",
+                "next": "maze-finale-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-finale"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-finale"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-finale-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-finale"
+              }
+            ],
+            "autoStart": true,
+            "priority": 51,
+            "title": "Мира · начальник экспедиции",
+            "text": "Последняя печать снята. Забери летопись в сердце лабиринта и принеси мне в наружный лагерь. Все снятые печати останутся открыты. Боковые крылья можно исследовать позже.",
+            "choices": [
+              {
+                "id": "claim_maze-finale",
+                "text": "Сдать: Финал · вынести правду (+100 золота)",
+                "next": "maze-finale-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-finale"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-finale"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-finale-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              }
+            ],
+            "autoStart": true,
+            "priority": 52,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет. Имена пропавших больше не будут тайной; приказ об изоляции отменён. Можно продолжить исследовать необязательные крылья.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-1",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 81,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nВ письмах сохранились имена и адреса. Теперь семьи узнают правду.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-2",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 81,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nРаненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-3",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-1"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 82,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nВ письмах сохранились имена и адреса. Теперь семьи узнают правду.\nРаненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-4",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 81,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nМаяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-5",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-1"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 82,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nВ письмах сохранились имена и адреса. Теперь семьи узнают правду.\nМаяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-6",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-2"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 82,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nРаненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь.\nМаяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-epilogue-7",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-finale"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-1"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-2"
+              },
+              {
+                "kind": "questComplete",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 83,
+            "title": "Мира · начальник экспедиции",
+            "text": "ФИНАЛ · Выход из молчания. Летопись вынесена на свет.\n\nВ письмах сохранились имена и адреса. Теперь семьи узнают правду.\nРаненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь.\nМаяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу.\n\nТвои необязательные находки изменили судьбу экспедиции. Можно продолжать исследование.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-permit",
+      "name": "Пропуск экспедиции",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        7,
+        0.7,
+        36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Запасной пропуск лежал среди вещей курьера. Покажи его Мире у ворот."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-entrance",
+      "name": "Вход · допуск экспедиции",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        0,
+        2.25,
+        27
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        4.5,
+        0.45
+      ],
+      "color": "#657f91",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "auto",
+        "condition": "quest",
+        "target": "maze-entry",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-keeper-1",
+      "name": "Водосбор · хранитель 1",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -1.3,
+        0,
+        25.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Водосбор · хранитель 1",
+            "text": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-1-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-entry"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-stage-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Водосбор · хранитель 1",
+            "text": "Вода ушла из нижних залов. Старый водосбор запечатан, и лагерю нечего пить.\n\nОбыщи доступные коридоры секции 1, найди «Медный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "accept_maze-stage-1",
+                "text": "Принять: 1 · Водосбор: найти ключ",
+                "next": "maze-stage-1-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-stage-1"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-stage-1"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-1-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-stage-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Водосбор · хранитель 1",
+            "text": "Вода ушла из нижних залов. Старый водосбор запечатан, и лагерю нечего пить.\n\nОбыщи доступные коридоры секции 1, найди «Медный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "claim_maze-stage-1",
+                "text": "Сдать: 1 · Водосбор: найти ключ (+35 золота)",
+                "next": "maze-stage-1-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-stage-1"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-stage-1"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-1-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Водосбор · хранитель 1",
+            "text": "Вода снова течёт к лагерю. На ключе обнаружен знак архивистов: они знали о перекрытии.\n\nПечать снята. Возьми ключ с собой и открой золотистую дверь (E). За ней — проход к следующему хранителю.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-key-1",
+      "name": "Медный ключ · секция 1",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        6,
+        0.7,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Медный ключ открывает ключевую дверь секции 1. Покажи его хранителю Водосбор, чтобы снять следующую печать. Не оставляй ключ за закрытой дверью."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-88-89",
+      "name": "Медный ключ · ключевая дверь",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -27,
+        2.25,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-key-1",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-gate-77-88",
+      "name": "Водосбор · печать хранителя",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        2.25,
+        9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        4.5,
+        0.45
+      ],
+      "color": "#657f91",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "auto",
+        "condition": "quest",
+        "target": "maze-stage-1",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-keeper-2",
+      "name": "Архив · хранитель 2",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -31.3,
+        0,
+        7.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Архив · хранитель 2",
+            "text": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-2-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-1"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-stage-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Архив · хранитель 2",
+            "text": "В архиве спрятан приказ о закрытии комплекса. Найди ключ и принеси его: я сверю печать с уцелевшей копией.\n\nОбыщи доступные коридоры секции 2, найди «Серебряный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "accept_maze-stage-2",
+                "text": "Принять: 2 · Архив: найти ключ",
+                "next": "maze-stage-2-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-stage-2"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-stage-2"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-2-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-stage-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Архив · хранитель 2",
+            "text": "В архиве спрятан приказ о закрытии комплекса. Найди ключ и принеси его: я сверю печать с уцелевшей копией.\n\nОбыщи доступные коридоры секции 2, найди «Серебряный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "claim_maze-stage-2",
+                "text": "Сдать: 2 · Архив: найти ключ (+45 золота)",
+                "next": "maze-stage-2-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-stage-2"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-stage-2"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-2-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Архив · хранитель 2",
+            "text": "Архив подтверждает: двери закрыли намеренно, оставив рабочих внутри. Это был не обвал.\n\nПечать снята. Возьми ключ с собой и открой золотистую дверь (E). За ней — проход к следующему хранителю.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-key-2",
+      "name": "Серебряный ключ · секция 2",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -18,
+        0.7,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Серебряный ключ открывает ключевую дверь секции 2. Покажи его хранителю Архив, чтобы снять следующую печать. Не оставляй ключ за закрытой дверью."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-75-76",
+      "name": "Серебряный ключ · ключевая дверь",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-key-2",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-gate-65-76",
+      "name": "Архив · печать хранителя",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        30,
+        2.25,
+        -3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        4.5,
+        0.45
+      ],
+      "color": "#657f91",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "auto",
+        "condition": "quest",
+        "target": "maze-stage-2",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-keeper-3",
+      "name": "Мастерская · хранитель 3",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        28.7,
+        0,
+        -4.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Мастерская · хранитель 3",
+            "text": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-3-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-2"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-stage-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Мастерская · хранитель 3",
+            "text": "Замки подчинены старому механизму. В мастерской оставлен ключ настройки — без него нельзя снять следующую печать.\n\nОбыщи доступные коридоры секции 3, найди «Янтарный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "accept_maze-stage-3",
+                "text": "Принять: 3 · Мастерская: найти ключ",
+                "next": "maze-stage-3-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-stage-3"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-stage-3"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-3-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-stage-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Мастерская · хранитель 3",
+            "text": "Замки подчинены старому механизму. В мастерской оставлен ключ настройки — без него нельзя снять следующую печать.\n\nОбыщи доступные коридоры секции 3, найди «Янтарный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "claim_maze-stage-3",
+                "text": "Сдать: 3 · Мастерская: найти ключ (+55 золота)",
+                "next": "maze-stage-3-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-stage-3"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-stage-3"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-3-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Мастерская · хранитель 3",
+            "text": "Механизм отремонтирован. Записи мастера ведут к сердцу лабиринта, где хранятся имена пропавших.\n\nПечать снята. Возьми ключ с собой и открой золотистую дверь (E). За ней — проход к следующему хранителю.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-key-3",
+      "name": "Янтарный ключ · секция 3",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        18,
+        0.7,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Янтарный ключ открывает ключевую дверь секции 3. Покажи его хранителю Мастерская, чтобы снять следующую печать. Не оставляй ключ за закрытой дверью."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-26-27",
+      "name": "Янтарный ключ · ключевая дверь",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -3,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-key-3",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-gate-25-26",
+      "name": "Мастерская · печать хранителя",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -9,
+        2.25,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#657f91",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "auto",
+        "condition": "quest",
+        "target": "maze-stage-3",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-keeper-4",
+      "name": "Обсерватория · хранитель 4",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -13.3,
+        0,
+        -22.7
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Обсерватория · хранитель 4",
+            "text": "Сначала разберись с предыдущей печатью. Мы сможем продолжить только после её снятия.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-4-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-3"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-stage-4"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Обсерватория · хранитель 4",
+            "text": "Смотритель стёр направление к сердцу. В забытом проходе лежит ключ от звёздного затвора.\n\nОбыщи доступные коридоры секции 4, найди «Лазурный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "accept_maze-stage-4",
+                "text": "Принять: 4 · Обсерватория: найти ключ",
+                "next": "maze-stage-4-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-stage-4"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-stage-4"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-4-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-stage-4"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Обсерватория · хранитель 4",
+            "text": "Смотритель стёр направление к сердцу. В забытом проходе лежит ключ от звёздного затвора.\n\nОбыщи доступные коридоры секции 4, найди «Лазурный ключ» и вернись ко мне. Я сниму печать, а ключевую дверь откроешь сам клавишей E. Боковые хранилища необязательны.",
+            "choices": [
+              {
+                "id": "claim_maze-stage-4",
+                "text": "Сдать: 4 · Обсерватория: найти ключ (+65 золота)",
+                "next": "maze-stage-4-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-stage-4"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-stage-4"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-stage-4-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-4"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Обсерватория · хранитель 4",
+            "text": "На карте вновь видна дорога. Смотритель не охранял людей: он охранял тайну совета.\n\nПечать снята. Возьми ключ с собой и открой золотистую дверь (E). За ней — проход к сердцу лабиринта. Забери там летопись и отнеси Мире в наружный лагерь.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-key-4",
+      "name": "Лазурный ключ · секция 4",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -30,
+        0.7,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Лазурный ключ открывает ключевую дверь секции 4. Покажи его хранителю Обсерватория, чтобы снять следующую печать. Не оставляй ключ за закрытой дверью."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-39-40",
+      "name": "Лазурный ключ · ключевая дверь",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        9,
+        2.25,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-key-4",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-gate-40-41",
+      "name": "Обсерватория · печать хранителя",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        15,
+        2.25,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#657f91",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "auto",
+        "condition": "quest",
+        "target": "maze-stage-4",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-giver-1",
+      "name": "Исследователь · Письма пропавшей экспедиции",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        25.4,
+        0,
+        -37.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Исследователь · Письма пропавшей экспедиции",
+            "text": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-1-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-2"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-side-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Исследователь · Письма пропавшей экспедиции",
+            "text": "Мой брат был среди запертых. В боковом архиве остались его письма. Найди ключ архивариуса, открой дверь и принеси их мне.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "accept_maze-side-1",
+                "text": "Принять: Необязательно · Письма пропавшей экспедиции",
+                "next": "maze-side-1-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-side-1"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-side-1"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-1-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-side-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Исследователь · Письма пропавшей экспедиции",
+            "text": "Мой брат был среди запертых. В боковом архиве остались его письма. Найди ключ архивариуса, открой дверь и принеси их мне.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "claim_maze-side-1",
+                "text": "Сдать: Необязательно · Письма пропавшей экспедиции (+60 золота)",
+                "next": "maze-side-1-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-side-1"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-side-1"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-1-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-side-1"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Исследователь · Письма пропавшей экспедиции",
+            "text": "В письмах сохранились имена и адреса. Теперь семьи узнают правду. В глубине хранилища также есть снаряжение — его можно забрать.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-key-1",
+      "name": "Ключ бокового хранилища 1",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        25.8,
+        0.7,
+        -22.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Ключ к необязательной двери: Письма пропавшей экспедиции. Основной маршрут не требует этого ключа."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-relic-1",
+      "name": "Письма экспедиции",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        30,
+        0.7,
+        -24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "В письмах сохранились имена и адреса. Теперь семьи узнают правду."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-9-10",
+      "name": "Необязательно · Письма пропавшей экспедиции",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        27,
+        2.25,
+        -36
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        4.5,
+        6
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-side-key-1",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-loot-1",
+      "name": "Доспех экспедиции",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        31.4,
+        0.7,
+        -22.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "gear": {
+        "slot": "body",
+        "damage": 45,
+        "armor": 40,
+        "length": 1.08,
+        "grip": 0.16,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "inspection": {
+        "enabled": true,
+        "description": "Награда за исследование необязательного крыла. Экипируй через I."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-enemy-1",
+      "name": "Страж забытого крыла",
+      "kind": "enemy",
+      "shape": "humanoid",
+      "position": [
+        31.2,
+        0,
+        -31.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#ae7163",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "maze-guards",
+        "reaction": "fight",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": false,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "",
+      "enemy": {
+        "speed": 1.3,
+        "notice": 3,
+        "reach": 1.4,
+        "damage": 3,
+        "duration": 0.9,
+        "cooldown": 1.2,
+        "impact": 0.45,
+        "facing": 0,
+        "idle": null,
+        "walk": null,
+        "attack": null,
+        "death": null,
+        "animationSources": {},
+        "corpseAssetId": null,
+        "corpseScale": 1,
+        "corpseFacing": 0
+      },
+      "health": 30
+    },
+    {
+      "id": "maze-side-giver-2",
+      "name": "Исследователь · Лекарство для лагеря",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -28.6,
+        0,
+        -19.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Исследователь · Лекарство для лагеря",
+            "text": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-2-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-3"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-side-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Исследователь · Лекарство для лагеря",
+            "text": "В боковом лазарете есть лекарства. Его ключ потерян в ближайшей секции. Найди его, открой лазарет и верни ларец.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "accept_maze-side-2",
+                "text": "Принять: Необязательно · Лекарство для лагеря",
+                "next": "maze-side-2-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-side-2"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-side-2"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-2-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-side-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Исследователь · Лекарство для лагеря",
+            "text": "В боковом лазарете есть лекарства. Его ключ потерян в ближайшей секции. Найди его, открой лазарет и верни ларец.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "claim_maze-side-2",
+                "text": "Сдать: Необязательно · Лекарство для лагеря (+75 золота)",
+                "next": "maze-side-2-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-side-2"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-side-2"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-2-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-side-2"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Исследователь · Лекарство для лагеря",
+            "text": "Раненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь. В глубине хранилища также есть снаряжение — его можно забрать.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-key-2",
+      "name": "Ключ бокового хранилища 2",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -28.2,
+        0.7,
+        -28.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Ключ к необязательной двери: Лекарство для лагеря. Основной маршрут не требует этого ключа."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-relic-2",
+      "name": "Ларец лекарств",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -30,
+        0.7,
+        -6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Раненые получили лекарства. Экспедиция сможет вернуться домой без новых потерь."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-33-44",
+      "name": "Необязательно · Лекарство для лагеря",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -30,
+        2.25,
+        -15
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        4.5,
+        0.45
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-side-key-2",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-loot-2",
+      "name": "Клинок исследователя",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -28.6,
+        0.7,
+        -4.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "gear": {
+        "slot": "weapon",
+        "damage": 45,
+        "armor": 15,
+        "length": 1.08,
+        "grip": 0.16,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "inspection": {
+        "enabled": true,
+        "description": "Награда за исследование необязательного крыла. Экипируй через I."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-giver-3",
+      "name": "Исследователь · Последний свет",
+      "kind": "npc",
+      "shape": "humanoid",
+      "position": [
+        -16.6,
+        0,
+        -19.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#c7b688",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "villagers",
+        "reaction": "ignore",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": true,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+      "dialogueTree": {
+        "start": "start",
+        "nodes": [
+          {
+            "id": "start",
+            "title": "Исследователь · Последний свет",
+            "text": "У меня есть необязательная просьба. Основной проход можно открыть и без неё.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-3-offer",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-stage-3"
+              },
+              {
+                "kind": "questNew",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 10,
+            "title": "Исследователь · Последний свет",
+            "text": "В заброшенном хранилище спрятана линза. Найди ключ кладовщика и верни её, чтобы зажечь сигнал для заблудившихся.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "accept_maze-side-3",
+                "text": "Принять: Необязательно · Последний свет",
+                "next": "maze-side-3-active",
+                "conditions": [
+                  {
+                    "kind": "questNew",
+                    "target": "maze-side-3"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "accept",
+                  "quest": "maze-side-3"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-3-active",
+            "conditions": [
+              {
+                "kind": "questActive",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 11,
+            "title": "Исследователь · Последний свет",
+            "text": "В заброшенном хранилище спрятана линза. Найди ключ кладовщика и верни её, чтобы зажечь сигнал для заблудившихся.\n\nКлюч лежит в открытой части этой секции, перед ответвлением. Указатель сначала поможет найти ключ, затем дверь и находку. Верни находку мне. Это не нужно для основного пути.",
+            "choices": [
+              {
+                "id": "claim_maze-side-3",
+                "text": "Сдать: Необязательно · Последний свет (+90 золота)",
+                "next": "maze-side-3-done",
+                "conditions": [
+                  {
+                    "kind": "questReady",
+                    "target": "maze-side-3"
+                  }
+                ],
+                "showLocked": false,
+                "action": {
+                  "type": "complete",
+                  "quest": "maze-side-3"
+                }
+              },
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          },
+          {
+            "id": "maze-side-3-done",
+            "conditions": [
+              {
+                "kind": "questComplete",
+                "target": "maze-side-3"
+              }
+            ],
+            "autoStart": true,
+            "priority": 12,
+            "title": "Исследователь · Последний свет",
+            "text": "Маяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу. В глубине хранилища также есть снаряжение — его можно забрать.",
+            "choices": [
+              {
+                "id": "leave",
+                "text": "До встречи",
+                "next": null,
+                "conditions": [],
+                "showLocked": false,
+                "action": null
+              }
+            ]
+          }
+        ]
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-key-3",
+      "name": "Ключ бокового хранилища 3",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -28.2,
+        0.7,
+        -16.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Ключ к необязательной двери: Последний свет. Основной маршрут не требует этого ключа."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-relic-3",
+      "name": "Линза маяка",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -18,
+        0.7,
+        -30
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Маяк снова светит. Теперь пропавшие группы смогут найти дорогу к выходу."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-gate-24-35",
+      "name": "Необязательно · Последний свет",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -18,
+        2.25,
+        -21
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        6,
+        4.5,
+        0.45
+      ],
+      "color": "#b69150",
+      "solid": true,
+      "environment": false,
+      "collision": "box",
+      "dialogue": "",
+      "motion": {
+        "trigger": "interact",
+        "condition": "item",
+        "target": "maze-side-key-3",
+        "offset": [
+          0,
+          4.8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "pivot": "origin",
+        "duration": 1.2
+      },
+      "health": 40
+    },
+    {
+      "id": "maze-side-loot-3",
+      "name": "Шлем хранителя",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        -16.6,
+        0.7,
+        -28.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "gear": {
+        "slot": "head",
+        "damage": 45,
+        "armor": 15,
+        "length": 1.08,
+        "grip": 0.16,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "inspection": {
+        "enabled": true,
+        "description": "Награда за исследование необязательного крыла. Экипируй через I."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-side-enemy-3",
+      "name": "Страж забытого крыла",
+      "kind": "enemy",
+      "shape": "humanoid",
+      "position": [
+        -22.8,
+        0,
+        -31.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#ae7163",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "behavior": {
+        "faction": "maze-guards",
+        "reaction": "fight",
+        "enemies": "ignore",
+        "others": "neutral",
+        "assist": false,
+        "invulnerable": false,
+        "routine": "stand",
+        "radius": 5
+      },
+      "dialogue": "",
+      "enemy": {
+        "speed": 1.3,
+        "notice": 3,
+        "reach": 1.4,
+        "damage": 3,
+        "duration": 0.9,
+        "cooldown": 1.2,
+        "impact": 0.45,
+        "facing": 0,
+        "idle": null,
+        "walk": null,
+        "attack": null,
+        "death": null,
+        "animationSources": {},
+        "corpseAssetId": null,
+        "corpseScale": 1,
+        "corpseFacing": 0
+      },
+      "health": 30
+    },
+    {
+      "id": "maze-chronicle",
+      "name": "Летопись запертых",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        18,
+        0.7,
+        -18
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Здесь записаны имена всех, кого совет оставил в лабиринте. Вынеси летопись и вернись к Мире в наружный лагерь."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "traveller-blade",
+      "name": "Клинок экспедиции",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        0,
+        0.7,
+        34
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "gear": {
+        "slot": "weapon",
+        "damage": 30,
+        "armor": 0,
+        "length": 1.08,
+        "grip": 0.16,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "startInInventory": true,
+      "inspection": {
+        "enabled": true,
+        "description": "Экипируй через инвентарь (I)."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "traveller-coat",
+      "name": "Куртка экспедиции",
+      "kind": "item",
+      "shape": "sphere",
+      "position": [
+        0,
+        0.7,
+        34
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ],
+      "color": "#f4d484",
+      "solid": false,
+      "environment": false,
+      "collision": "meshes",
+      "gear": {
+        "slot": "body",
+        "damage": 20,
+        "armor": 25,
+        "length": 1.08,
+        "grip": 0.16,
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "startInInventory": true,
+      "inspection": {
+        "enabled": true,
+        "description": "Экипируй через инвентарь (I)."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-courier-crate",
+      "name": "Вещи курьера",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        7,
+        0.3,
+        38
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.6,
+        0.6,
+        1
+      ],
+      "color": "#927354",
+      "solid": true,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Пропуск упал неподалёку. Отнеси его Мире."
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "generation-notes",
+      "name": "Журнал экспедиции",
+      "kind": "prop",
+      "shape": "box",
+      "position": [
+        -5,
+        0.35,
+        37
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.7,
+        0.4
+      ],
+      "color": "#bba17b",
+      "solid": true,
+      "environment": false,
+      "collision": "meshes",
+      "inspection": {
+        "enabled": true,
+        "description": "Лабиринт · 11 × 11 залов. 4 основных секций, 3 необязательных крыльев.\nНачни с Миры снаружи. Золотистые двери открываются ключами (E), синие печати — после сдачи задания хранителю. Ключи не расходуются.\nСохраняйся через Esc. Указатель ведёт по коридорам; при закрытой двери сначала ищет её ключ.\nSeed и настройки: {\"seed\":\"expedition-42\",\"story\":\"random\",\"biome\":\"story\",\"size\":\"medium\",\"difficulty\":\"story\",\"sideQuests\":3,\"mode\":\"maze\"}"
+      },
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-0",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        44.02784321224317,
+        0,
+        40.3892926776316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-1",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -11.02119566872716,
+        0,
+        41.3984697565902
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-2",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -16.41369814518839,
+        0,
+        42.644647733308375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-4",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -26.72219923697412,
+        0,
+        41.920844053151086
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-5",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -17.600732774008065,
+        0,
+        43.98627442633733
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-6",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -37.03567044110969,
+        0,
+        42.129762324970216
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-7",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -36.185792880132794,
+        0,
+        43.842226405162364
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-8",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -28.03898786427453,
+        0,
+        40.66158579289913
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-9",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -37.7014805492945,
+        0,
+        42.45737797557376
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-10",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        42.80082650715485,
+        0,
+        42.20308789727278
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-12",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -17.649109933990985,
+        0,
+        40.43631890998222
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-13",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -27.51624584197998,
+        0,
+        43.96181271970272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-15",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        17.028930550441146,
+        0,
+        39.24437670363113
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    },
+    {
+      "id": "maze-tree-17",
+      "name": "Дерево у лагеря",
+      "kind": "prop",
+      "shape": "tree",
+      "position": [
+        -43.52781516266987,
+        0,
+        43.14535571937449
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "color": "#b18046",
+      "solid": true,
+      "environment": true,
+      "collision": "trunk",
+      "dialogue": "",
+      "health": 40
+    }
+  ],
+  "quests": [
+    {
+      "id": "maze-entry",
+      "title": "Пролог · допуск в лабиринт",
+      "giver": "guide",
+      "target": "maze-permit",
+      "required": 1,
+      "type": "collect",
+      "reward": 20
+    },
+    {
+      "id": "maze-stage-1",
+      "title": "1 · Водосбор: найти ключ",
+      "giver": "maze-keeper-1",
+      "target": "maze-key-1",
+      "required": 1,
+      "type": "collect",
+      "reward": 35
+    },
+    {
+      "id": "maze-stage-2",
+      "title": "2 · Архив: найти ключ",
+      "giver": "maze-keeper-2",
+      "target": "maze-key-2",
+      "required": 1,
+      "type": "collect",
+      "reward": 45
+    },
+    {
+      "id": "maze-stage-3",
+      "title": "3 · Мастерская: найти ключ",
+      "giver": "maze-keeper-3",
+      "target": "maze-key-3",
+      "required": 1,
+      "type": "collect",
+      "reward": 55
+    },
+    {
+      "id": "maze-stage-4",
+      "title": "4 · Обсерватория: найти ключ",
+      "giver": "maze-keeper-4",
+      "target": "maze-key-4",
+      "required": 1,
+      "type": "collect",
+      "reward": 65
+    },
+    {
+      "id": "maze-side-1",
+      "title": "Необязательно · Письма пропавшей экспедиции",
+      "giver": "maze-side-giver-1",
+      "target": "maze-side-relic-1",
+      "required": 1,
+      "type": "collect",
+      "reward": 60
+    },
+    {
+      "id": "maze-side-2",
+      "title": "Необязательно · Лекарство для лагеря",
+      "giver": "maze-side-giver-2",
+      "target": "maze-side-relic-2",
+      "required": 1,
+      "type": "collect",
+      "reward": 75
+    },
+    {
+      "id": "maze-side-3",
+      "title": "Необязательно · Последний свет",
+      "giver": "maze-side-giver-3",
+      "target": "maze-side-relic-3",
+      "required": 1,
+      "type": "collect",
+      "reward": 90
+    },
+    {
+      "id": "maze-finale",
+      "title": "Финал · вынести правду",
+      "giver": "guide",
+      "target": "maze-chronicle",
+      "required": 1,
+      "type": "collect",
+      "reward": 100
+    }
+  ]
+}

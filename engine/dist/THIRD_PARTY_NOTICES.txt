@@ -1,0 +1,18 @@
+Hearth Engine and its editor: MIT; see LICENSE.
+Three.js, Zod, meshoptimizer, gl-matrix, Victor Mono npm release 1.4.0:
+MIT; their full notices are in licenses/.
+Three.js also contains adapted shader/algorithm code with additional notices:
+- Real-Time Collision Detection: required source credit in licenses/rtcd.txt.
+- Minimal AgX: MIT, licenses/minimal-agx.txt.
+- LTC / ACES fit: permissive terms and paper citation, licenses/ltc.txt.
+- Filament and Khronos shader adaptations: Apache-2.0,
+  licenses/apache-2.0.txt and licenses/shader-sources.txt.
+Keep these license files with this distribution. Standalone editor/game HTML
+and HTML exported by the editor include the same applicable notices.
+The project MIT license does not replace third-party terms.
+Font provenance and checksums: src/assets/fonts/SOURCE.txt.
+Build/test dependencies retain their licenses; package-lock.json pins versions.
+node_modules and build-tool executables are not included in the source archive.
+Demo geometry is procedural. The supplied project describes its four terrain
+textures as ImageGen-generated; that historical provenance is not independently
+established by the files alone. Imported user content retains its own rights.

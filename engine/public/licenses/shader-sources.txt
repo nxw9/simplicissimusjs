@@ -1,0 +1,37 @@
+Additional source notices for shader adaptations distributed inside Three.js.
+These portions retain the terms stated below; the Hearth project MIT license
+does not replace those terms.
+
+Filament: Copyright (C) 2021 The Android Open Source Project.
+BRDF and AgX implementations adapted by the Three.js authors from Filament.
+The Three.js adaptations differ from the upstream implementations; Hearth
+has not edited their shader code. Apache License 2.0; see apache-2.0.txt.
+Sources: https://github.com/google/filament
+https://github.com/google/filament/pull/7236
+
+Khronos glTF Sample Viewer / Sample Renderer: transmission shader source,
+adapted by the Three.js authors. Developed/refactored by UX3D, supported by
+the Khronos Group. Apache License 2.0; see apache-2.0.txt.
+https://github.com/KhronosGroup/glTF-Sample-Viewer
+https://github.com/KhronosGroup/glTF-Sample-Renderer
+
+Khronos PBR Neutral tone mapping: adapted by the Three.js authors, including
+an exposure multiplier. Apache License 2.0; see apache-2.0.txt.
+https://github.com/KhronosGroup/ToneMapping/blob/main/PBR_Neutral/pbrNeutral.glsl
+
+LTC / ACES fit source: Eric Heitz, Jonathan Dupuy, Stephen Hill, David Neubelt.
+Full permissive license and required paper citation: ltc.txt.
+https://github.com/selfshadow/ltc_code
+
+Minimal AgX: Copyright (c) 2024 Missing Deadlines (Benjamin Wrensch).
+MIT License; see minimal-agx.txt. AgX originates from Troy Sobotka's work.
+https://iolite-engine.com/blog_posts/minimal_agx_implementation
+
+Additional provenance preserved from Three.js:
+Mipped Bicubic Texture Filtering by N8 (N8python):
+https://www.shadertoy.com/view/Dl2SDW
+https://github.com/mrdoob/three.js/pull/25483
+Dithering reference: https://www.shadertoy.com/view/MslGR8
+https://github.com/mrdoob/three.js/pull/11076
+These provenance links do not purport to grant a separate license to the
+external pages or to other code hosted on those pages.

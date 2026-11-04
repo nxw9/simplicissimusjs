@@ -1,0 +1,13 @@
+Hearth Engine / Zaltan 0.37
+Project format: 24; save format: 8; Zaltan contentVersion: 4.
+Automated suite: 265 passed, 0 failed (249 engine tests + 16 game tests).
+Feature checks: map boundaries on every side; airborne and ground movement; valid spawn; expanding automatic and custom limits; out-of-bounds old saves; editor-only collision guides.
+Weapon checks: right/left and common bone names; exclusion of finger/IK nodes; manual overrides; stable palm frame; correction offsets; axis normalization; clone isolation; imported binary GLB skin and quaternion attack animation; preview cancellation and built-in weapon visibility.
+Existing Zaltan routes and both endings passed, including the western valley, fortress, southern mountain pass and lunar island.
+Production editor and standalone game built successfully.
+Separate deliveries: neutral editor; Zaltan project plus autonomous game HTML.
+Standalone HTML: all scripts syntax-checked, no external script or stylesheet references; embedded project verified.
+Actual 0.36 save compatibility verified on foot and mounted, including inventory, quest state and gold.
+Authored game data compared against attached 0.36 project: unchanged after schema migration.
+Game: 1031 entities, 10 quests, 27 models, 10 books.
+No GPU/browser visual or FPS measurements performed in this environment.

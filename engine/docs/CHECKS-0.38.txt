@@ -1,0 +1,32 @@
+Hearth Engine 0.38.0 — 2026-11-03
+Project format 25; save format 8.
+
+268 automated engine tests passed, 0 failed.
+After the final editor refinements: 21 relevant brush, patrol, gesture and
+full-editor DOM tests passed. Tests exercise real scene/tool code with a
+stub renderer where a GPU would otherwise be needed.
+
+Verified:
+- instant repeated clicks grow stone cliffs; drags create continuous ridges;
+- terrain height limits, region boundaries, cancellation and undo/redo;
+- sparse road drags cut continuous walkable mountain passages;
+- uphill/downhill road motion, terrain materials and project roundtrip;
+- loop/ping-pong/once patrol modes, pauses, speed and waypoint controls;
+- combat interruption/resume, death, event absence and disabled colliders;
+- patrol controls, numbered guides and export in the full editor DOM test;
+- migration of old project versions, existing gameplay and save behavior;
+- production build and standalone editor rebuilt from current source;
+- original embedded starter project preserved, except schema migration;
+- example map generated and both patrols checked in both directions.
+
+Zaltan integration: 17 tests passed, including actual collision/heightfield
+checks for all 15 patrols in both directions. Original Zaltan data are exactly
+preserved after removing new patrol fields and reverting the schema number.
+
+Browser/GPU visual validation was NOT completed: no working browser binary
+was available in this environment. This is not covered by the DOM tests.
+Build emits the existing non-blocking warning about chunks over 500 kB.
+
+Known scope: roads are open cuts/fills, not tunnels; route segments do not
+compute detours around walls; heightfield remains limited to -80..80 m;
+patrol progress is reset on game start/load (save format remains 8).

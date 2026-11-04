@@ -1,0 +1,38 @@
+Hearth Engine 0.39.0 — wall brush — 2026-11-04
+
+280 automated tests passed, 0 failed. npm run check completed:
+node --test tests/*.test.js, Vite production build, standalone game build.
+
+New feature validation:
+- real editor DOM: wall tool, width, model selector, straight mode, 37-degree
+  bearing, commit, undo/redo; terrain and existing tools still work;
+- pointer drags: freehand turns, sparse input, final pointer-up position,
+  temporary straight line with Shift, one commit per stroke;
+- preview does not mutate project; Escape, pointercancel, mode switch and
+  right mouse navigation leave the project unchanged;
+- arbitrary and reverse directions, angle projection at map edges;
+- brush width versus independent height, terrain grounding and slope clearance;
+- 512-section stroke budget and 20,000-object map limit;
+- actual supplied GLB parsed with Three.js: unit section bounds, embedded UVs
+  and texture; browser image decoding only was stubbed in this unit test;
+- one embedded asset reused across strokes; IDs remain unique;
+- project JSON and standalone game export retain all wall data;
+- diagonal collisions block crossing without blocking the surrounding AABB;
+- repeated model sections share instanced geometry, with independent editing;
+- original embedded starter project preserved exactly.
+
+Deliverables rebuilt from current source:
+hearth-editor.html, hearth-demo.html, engine/dist/.
+Example: engine/examples/wall-brush.hearth.json (30 sections, one embedded GLB).
+
+Full WebGL browser visual validation was NOT completed: local Chromium
+could not start in this environment. DOM tests use the real editor/tool code
+with a renderer stub. Existing non-blocking bundler warnings remain about
+large chunks and the deprecated inlineDynamicImports option.
+
+Limits: 512 sections per stroke; 20,000 entities per project; widths 0.25–30 m;
+heights 0.5–40 m; steep terrain uses stepped wall tops. Existing walls do not
+rebuild automatically after terrain edits. The tool creates independent
+sections rather than editable splines and does not cut automatic gateways.
+Project schema stays 25; game save schema stays 8. Projects with the new
+wall collision mode require editor 0.39.0 or newer.
